@@ -1,0 +1,19 @@
+VECTOR CLOCK SIMULATOR
+
+P1 Internal Event: [1, 0, 0]
+P1 Sends Message: [2, 0, 0]
+P2 Internal Event: [0, 1, 0]
+P2 Sends Message: [0, 2, 0]
+P3 Receives Message: [2, 0, 1]
+P3 Internal Event: [2, 0, 2]
+P2 Receives Message: [2, 3, 0]
+
+Compare Event Timestamps:
+A = [2, 0, 0]
+B = [0, 2, 0]
+Events are CONCURRENT
+
+Final Vector Clocks:
+P1 : [2, 0, 0]
+P2 : [2, 3, 0]
+P3 : [2, 0, 2]
